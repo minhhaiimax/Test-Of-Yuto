@@ -1,0 +1,45 @@
+body{
+	position: relative;
+}
+.ptb20{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.content{
+	width: 100%;
+	height: 610px;
+	background: url('Images/background.jpg') no-repeat;
+}
+.box{
+	position: absolute;
+	background-color: #d60036;
+	border: 1px solid #000;
+	height: auto;
+	width: 26%;
+	left: 40%;
+	top: 35%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+.box-text{
+	border-radius: 10px 10px 10px 10px;
+	width: 70%;
+	height: auto;
+	color: #d60036;
+	background-color: #fff;
+	margin-left: 14%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+@media screen and (max-width: 768px){
+	.box{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 400px){
+	.box{
+		margin-top: 20px;
+	}
+}
